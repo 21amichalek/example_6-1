@@ -162,9 +162,9 @@ static void userInterfaceDisplayUpdate()
         displayCharPositionWrite ( 13,0 );
 
         if ( gasDetectorStateRead() ) {
-            displayStringWrite( "D" );
+            displayStringWrite( "D " );
         } else {
-            displayStringWrite( "ND " );
+            displayStringWrite( "ND" );
         }
 
         displayCharPositionWrite ( 6,1 );
